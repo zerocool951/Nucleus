@@ -1,0 +1,4 @@
+1. vagrant ssh
+2. cd /vagrant/Nucleus/www/matcher
+3. python manage.py runserver 0.0.0.0:8000
+4. local.nucleus:nl:8000

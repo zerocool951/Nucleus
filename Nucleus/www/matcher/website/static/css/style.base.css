@@ -1,0 +1,11 @@
+.nucleus-jumbotron h1 { text-align: center;}
+.nucleus-jumbotron { background: none;}
+
+body { border-top: 2px solid rgb(205, 205, 205);}
+ul.nucleus-nav li a { color: #868585; font-weight: 300; font-size: 18px;}
+ul.nucleus-nav li a:hover { background-color: #F2F2F2; color: rgb(30, 30, 30);}
+
+.box-nucleus:first-child{margin: 0px;}
+.box-nucleus{border: 1px solid #e9e9e9; width: 32.333333%; margin-left: 1%;padding: 0px;}
+.box-nucleus h2{font-size: 30px; color: #1c94c6; border-bottom: 2px solid #1c94c6; padding-bottom: 15px;padding-left: 20px;}
+.box-nucleus p{margin: 20px;}
