@@ -1,11 +1,27 @@
-.nucleus-jumbotron h1 { text-align: center;}
-.nucleus-jumbotron { background: none;}
-
+/*globals*/
 body { border-top: 2px solid rgb(205, 205, 205);}
+
+/*templates*/
+/*buttons*/
+.button-action{    font-size: 23px;    color: #4579DE;  cursor: pointer;      margin-right: 10px;      border: 1px solid #32A2E5;    border-radius: 1px;      padding: 12px 25px;  margin: 10px;        transition: 0.2s all;}
+.button-action:hover{color: inherit; text-decoration: none; background-color: rgb(61, 113, 177);color: white;border: 1px transparent;}
+/*menu*/
 ul.nucleus-nav li a { color: #868585; font-weight: 300; font-size: 18px;}
 ul.nucleus-nav li a:hover { background-color: #F2F2F2; color: rgb(30, 30, 30);}
+.menu-progress{ height: 102px;}
+.menu-progress ul{ list-style: none; border-bottom: 2px solid black; padding: 9px 0px;}
+.menu-progress ul li{float: left; width: 21%;margin-left: 12%;}
+.menu-progress ul li span { position: absolute; margin-top: 32px; text-align: center; margin-left: -19px;}
+.menu-progress ul li i{ border: 1px solid black; border-radius: 50%; padding: 10px 14px; z-index: 2; background: white;}
+
+/*wrappers and boxes*/
+.nucleus-jumbotron h1 { text-align: center;}
+.nucleus-jumbotron { background: none;}
 
 .box-nucleus:first-child{margin: 0px;}
 .box-nucleus{border: 1px solid #e9e9e9; width: 32.333333%; margin-left: 1%;padding: 0px;}
 .box-nucleus h2{font-size: 30px; color: #1c94c6; border-bottom: 2px solid #1c94c6; padding-bottom: 15px;padding-left: 20px;}
 .box-nucleus p{margin: 20px;}
+
+/*bug: negative margin*/
+.box-action { margin: -30px auto 30px auto; float: center;}
