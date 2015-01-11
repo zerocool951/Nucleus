@@ -1,0 +1,27 @@
+{% extends 'main/base.html' %}
+{% block title %}Building{% endblock %}
+{% block slogan %}Bouw een computer 2{% endblock %}
+{% block nav-building %}class="active"{% endblock %}
+{% block action %}{% endblock %}
+{% block icon-2 %}class="active"{% endblock %}
+{% block content %}
+<div class="building-2">
+	<form action="/building3/">
+		<ul>
+		<li><label for="1">(1)Processor</label><input id="1" type="text"></li>
+		<li><label for="2">(2)Videokaart</label><input id="2" type="text"></li>
+		<li><label for="3">(3)Hardeschijf</label><input id="3" type="text"></li>
+		<li><label for="4">(4)Geheugen</label><input id="4" type="text"></li>
+		<li><label for="5">(5)Moederbord</label><input id="5" type="text"></li>
+		<li><label for="6">(6)Voeding</label><input id="6" type="text"></li>
+		<li><label for="7">(7)Behuizing</label><input id="7" type="text"></li>
+		<li><label for="8">(8)xxxxxxx</label><input id="8" type="text"></li>
+		<li><label for="9">(9)xxxxxxxx</label><input id="9" type="text"></li>
+		</ul>
+		<div class="box-action">
+			<input type="submit" value="Doorgaan" class="button-action">
+		</div>
+	</form>
+</div>
+
+{% endblock %}

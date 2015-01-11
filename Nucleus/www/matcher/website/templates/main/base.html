@@ -19,15 +19,15 @@
 </head>
 <body>
     <div class="container">
-      <div class="masthead">
+      <div class="masthead box-masthead">
         <div role="navigation">
           <ul class="nav nav-justified nucleus-nav">
             <li class="logo">Nucleus™</li>
-            <li><a href="/home/">Home</a></li>
-            <li><a href="/building/">Building</a></li>
-            <li><a href="/producten/">Producten</a></li>
-            <li><a href="/about-us/">Over Ons</a></li>
-            <li><a href="/contact/">Contact</a></li>
+            <li><a {% block nav-home %}{% endblock %} href="/home/">Home</a></li>
+            <li><a {% block nav-building %}{% endblock %}href="/building1/">Building</a></li>
+            <li><a {% block nav-producten %}{% endblock %}href="/producten/">Producten</a></li>
+            <li><a {% block nav-about-us %}{% endblock %}href="/about-us/">Over Ons</a></li>
+            <li><a {% block nav-contact %}{% endblock %}href="/contact/">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -38,10 +38,20 @@
         
       </div>
 
+      {% block menu-progress %}
+      <div class="menu-progress">
+        <ul>
+          <li><span>Specificeren</span><i {% block icon-1 %}{% endblock %}>1</i></li>
+          <li><span>Configureren</span><i {% block icon-2 %}{% endblock %}>2</i></li>
+          <li><span>Complete!</span><i {% block icon-3 %}{% endblock %}>3</i></li>
+        </ul>
+      </div>
+      {% endblock %}
+
       {% block action %}
       <div class="row">
         <div class="col-lg-2 box-action">
-          <a class="button-action" href="/building/">Begin</a>
+          <a class="button-action" href="/building1/">Begin</a>
         </div>
       </div>
       {% endblock %}
