@@ -20,8 +20,8 @@ ul{list-style: none;}
 	.menu-progress ul{ list-style: none; border-bottom: 2px solid rgb(198, 198, 198); padding: 9px 0px;}
 	.menu-progress ul li{float: left; width: 21%;margin-left: 12%;}
 	.menu-progress ul li span { position: absolute; margin-top: 32px; text-align: center; margin-left: -19px; color: rgb(135, 135, 135);}
-	.menu-progress ul li i{ border: 1px rgb(140, 136, 136) solid; border-radius: 50%; padding: 10px 14px; z-index: 2; background: rgb(219, 219, 219); color: white; text-shadow: -1px -1px 0 #848484,        1px -1px 0 #848484,      -1px 1px 0 #848484,       1px 1px 0 #848484;}
-	.menu-progress ul li i.active{text-shadow: none; background-color: rgb(184, 71, 71);border-color: rgb(184, 71, 71);}
+	.menu-progress ul li i{ border: 1px rgb(140, 136, 136) solid; border-radius: 50%; padding: 10px 14px; z-index: 2; background: rgb(219, 219, 219); color: rgb(140, 136, 136);}
+	.menu-progress ul li i.active{text-shadow: none; background-color: rgb(184, 71, 71);border-color: rgb(184, 71, 71);color: white;}
 
 /*wrappers and boxes*/
 .box-nucleus:first-child{margin: 0px;}
@@ -37,6 +37,12 @@ ul{list-style: none;}
 .nucleus-jumbotron { background: none;}
 
 /*[page]building*/
-.building-1 ul li { padding: 7px 0px;}
-.building-1 ul li label { float: left; width: 196px;}
-.building-1 ul li input{ padding: 3px 0px;}
+.building ul li { padding: 7px 0px;}
+.building ul li label { float: left; width: 196px;}
+.building ul li input { padding: 3px 0px;}
+.building ul li a{ padding: 3px 0px;}
+.building { height: 575px;}
+.building .box-action { margin-top: 80px;}
+.extrainfo { position: relative; top: -570px; width: 55%; float: right; background: rgb(241, 241, 241); height: 360px;}
+.extrainfo .exit a { background-color: rgb(244, 104, 104); float: right; padding: 2px 20px; color: rgb(255, 255, 255);}
+.extrainfo .exit a:hover{text-decoration: none;}
