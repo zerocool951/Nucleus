@@ -1,7 +1,9 @@
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 992px) {
 	.box-nucleus{width: 96%!important; float: none!important;margin: 0px 2% 5% 2%!important;}
 	.nucleus-jumbotron h1{font-size: 5em!important;}
 	.nucleus-nav li a{font-size:1em!important;}
+	.extrainfo .title {font-size: 1.8em!important;}
+	.extrainfo .wrap{margin-left: 2em!important;}
 }
 
 /*globals*/
@@ -30,7 +32,7 @@ ul{list-style: none;}
 .box-nucleus p{margin: 20px;}
 .box-action { margin: 0px auto; width: 100%; margin-bottom: 55px;}
 .box-masthead { background: rgb(184, 71, 71); color: white; padding: 0px 21px;}
-
+.box-footer { background: rgb(231, 231, 231); height: 315px; margin-top: 4em; border-top: 1px solid rgb(202, 202, 202); bottom: 0px; width: 100%;}
 
 /*[page]frontpage*/
 .nucleus-jumbotron h1 { text-align: center; font-size: 605%; color: rgb(74, 74, 74);}
@@ -39,10 +41,13 @@ ul{list-style: none;}
 /*[page]building*/
 .building ul li { padding: 7px 0px;}
 .building ul li label { float: left; width: 196px;}
-.building ul li input { padding: 3px 0px;}
+.building ul li input { padding: 3px 10px;}
 .building ul li a{ padding: 3px 0px;}
-.building { height: 575px;}
+.building-2 { display: none;}
 .building .box-action { margin-top: 80px;}
-.extrainfo { position: relative; top: -570px; width: 55%; float: right; background: rgb(241, 241, 241); height: 360px;}
-.extrainfo .exit a { background-color: rgb(244, 104, 104); float: right; padding: 2px 20px; color: rgb(255, 255, 255);}
+.extrainfo { /*display: none;*/ background: rgb(255, 255, 255); min-height: 490px; padding: 25px; box-shadow: -1px 1px 4px 1px rgb(208, 208, 208); border: 1px solid rgb(218, 218, 218); width: 100%;}
+.extrainfo .title {font-size: 2.5em;}
+.extrainfo .exit a { background-color: rgb(244, 104, 104); float: right; padding: 10px 21px; color: rgb(255, 255, 255); font-size: 1.5em;}
 .extrainfo .exit a:hover{text-decoration: none;}
+.extrainfo .wrap { background: rgb(249, 249, 249); border-left: 2px solid rgb(230, 109, 109); margin: 3em 0; margin-left: 3em; padding: 2em 0 1em 0;}
+.extrainfo .box-action{margin: 5px!important;}
