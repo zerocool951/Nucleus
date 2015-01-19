@@ -42,7 +42,9 @@ ul{list-style: none;}
 /*[page]building*/
 .building ul li { padding: 7px 0px;}
 .building ul li label { float: left; width: 196px;}
-.building ul li input { padding: 3px 10px;}
+.building ul li input { padding: 4px 10px; outline: 0; border: 1px solid rgb(178, 178, 178);}
+.building ul li input:hover { border: 1px solid rgb(123, 123, 123);}
+.building ul li input:focus { border: 1px solid rgb(112, 112, 112); background: #F6F6F6;}
 .building ul li a{ padding: 3px 0px;}
 .building ul li span{float: right; /* font-weight: bold; */color: #747474;}
 .building ul li select {margin-left: 10px; padding: 5px;  border: 1px solid rgb(201, 201, 201); outline: none;}
