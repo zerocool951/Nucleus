@@ -1,3 +1,4 @@
 Vagrantfile
 Nucleus/www/matcher/matcher/settings.py
+Nucleus/www/matcher/src/neo4django
 data/*
