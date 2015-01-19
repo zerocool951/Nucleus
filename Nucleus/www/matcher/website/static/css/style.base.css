@@ -18,6 +18,7 @@ ul{list-style: none;}
 	.nucleus-nav li a { color: #FFFFFF; font-weight: 300; font-size: 1.5em; border-left: 1px solid; border-right: 1px solid; border-color: rgb(184, 71, 71); transition: 0.4s all;}
 	.nucleus-nav li a:hover { background-color: #B21B1B; color: rgb(255, 255, 255); border-left: 1px solid; border-right: 1px solid; border-color: #B21B1B;}
 	.nucleus-nav li a.active { background-color: #AD1515; color: rgb(255, 255, 255); border-left: 1px solid; border-right: 1px solid; border-color: rgb(157, 0, 0); border: 10px 15px;}
+	.nucleus-nav li a.order{background: rgb(109, 158, 99);border-color: rgb(111, 160, 98);}
 	.menu-progress{ height: 102px;}
 	.menu-progress ul{ list-style: none; border-bottom: 2px solid rgb(198, 198, 198); padding: 9px 0px;}
 	.menu-progress ul li{float: left; width: 21%;margin-left: 12%;}

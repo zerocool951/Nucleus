@@ -5,8 +5,12 @@
 {% block menu-progress %}{% endblock %}
 {% block action %}{% endblock %}
 {% block content %}
-
+{{Websites}}
 dit is dan de content van contact
+<script>
+	var xmlhttp = new XMLHttpRequest(),
+		json;
 
-
+	xmlhttp.open('GET', '/static/producten/data.json');
+</script>
 {% endblock %}

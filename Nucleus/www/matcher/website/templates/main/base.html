@@ -26,8 +26,8 @@
             <li><a {% block nav-home %}{% endblock %} href="/home/">Home</a></li>
             <li><a {% block nav-building %}{% endblock %}href="/building1/">Building</a></li>
             <li><a {% block nav-producten %}{% endblock %}href="/producten/">Producten</a></li>
-            <li><a {% block nav-about-us %}{% endblock %}href="/about-us/">Over Ons</a></li>
             <li><a {% block nav-contact %}{% endblock %}href="/contact/">Contact</a></li>
+            <li><a {% block nav-order %}{% endblock %}href="/order/">Bestelling</a></li>
           </ul>
         </div>
       </div>
@@ -39,7 +39,7 @@
       </div>
 
       {% block menu-progress %}
-      <div class="menu-progress">
+      <div id="change" class="menu-progress">
         <ul>
           <li><span>Specificeren</span><i {% block icon-1 %}{% endblock %}>1</i></li>
           <li><span>Configureren</span><i {% block icon-2 %}{% endblock %}>2</i></li>
@@ -90,5 +90,6 @@
 	<!-- JAVASCRIPT -->
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/script.base.js"></script>
 </body>
 </html>

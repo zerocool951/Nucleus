@@ -11,7 +11,7 @@ urlpatterns = patterns('',
     url(r'^building3', 'website.views.building3', name='building3'),
     url(r'^finish', 'website.views.finish', name='finish'),
     url(r'^producten', 'website.views.producten', name='producten'),
-    url(r'^about-us', 'website.views.aboutus', name='aboutus'),
+    url(r'^order', 'website.views.order', name='order'),
     url(r'^contact', 'website.views.contact', name='contact'),
     
 
