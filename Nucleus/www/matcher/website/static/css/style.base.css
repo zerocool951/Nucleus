@@ -47,7 +47,7 @@ ul{list-style: none;}
 .building ul li input:focus { border: 1px solid rgb(112, 112, 112); background: #F6F6F6;}
 .building ul li a{ padding: 3px 0px;}
 .building ul li span{float: right; /* font-weight: bold; */color: #747474;}
-.building ul li select {margin-left: 10px; padding: 5px;  border: 1px solid rgb(201, 201, 201); outline: none;}
+.building ul li select {margin-right: 10px; padding: 5px;  border: 1px solid rgb(201, 201, 201); outline: none;}
 .building-2 { display: block;}
 .building-2 .totaal { float: right; font-size: 24px; color: rgb(11, 129, 11);}
 .building .box-action { margin-top: 80px;}

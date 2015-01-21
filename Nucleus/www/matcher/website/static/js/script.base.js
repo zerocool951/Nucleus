@@ -7,8 +7,7 @@ $(function(){
 	nucleusUser.hardeschijf = '3';
 	nucleusUser.geheugen = '4';
 	nucleusUser.moederbord = 5;
-	nucleusUser.voeding = 6;
-	nucleusUser.behuizing = '7';
+	nucleusUser.voeding = 5;
 	localStorage.setItem( 'nucleusUser', JSON.stringify(nucleusUser) );
 	console.log( JSON.parse( localStorage.getItem( 'nucleusUser' ) ) );
 
