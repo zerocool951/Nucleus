@@ -6,19 +6,19 @@
 {% block icon-1 %}class="active"{% endblock %}
 {% block content %}
 
-<div class="building">
+<div id="building" class="building">
 	<form action="/building2/">
 		<ul>
 		<li>
 			<label for="1">(1) Processor</label>
 			<select>
-		  		<option value="merk">Kernen</option>
+		  		<option value="merk" selected disabled>Kernen</option>
 		  		<option value="xx">2</option>
 		  		<option value="xx">4</option>
 		  		<option value="xx">6</option>
 		  		<option value="xx">8</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="merk">Socket</option>
 		  		<option value="xx">Socket 1150</option>
 		  		<option value="xx">Socket 1155</option>
@@ -29,7 +29,7 @@
 		  		<option value="xx">Socket FM2</option>
 		  		<option value="xx">Socket FM2+</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="GHZ">Kloksnelheid</option>
 		  		<option value="xx">2.5</option>
 		  		<option value="xx">3.0</option>
@@ -39,19 +39,21 @@
 		</li>
 		<li>
 			<label for="2">(2) Videokaart</label>
-			<select>
-		  		<option value="xx">Klokfrequentie</option>
-		  		<option value="xx">xx</option>
-		  		<option value="xx">xx</option>
+			<select onchange="changeMe(this)">
+		  		<option value="xx">Geheugen</option>
+		  		<option value="xx">1GB</option>
+		  		<option value="xx">2GB</option>
+		  		<option value="xx">3GB</option>
+		  		<option value="xx">4GB</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">PCI Sockets</option>
 		  		<option value="xx">1</option>
 		  		<option value="xx">2</option>
 		  		<option value="xx">3</option>
 		  		<option value="xx">4</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">SLI/Crossfire</option>
 		  		<option value="xx">ja</option>
 		  		<option value="xx">nee</option>
@@ -59,18 +61,18 @@
 		</li>
 		<li>
 			<label for="3">(3) Hardeschijf</label>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">Capiciteit</option>
 		  		<option value="xx">250 GB</option>
 		  		<option value="xx">500 GB</option>
 		  		<option value="xx">1000 GB</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">Bouwvorm</option>
-		  		<option value="xx">3,5 inch</option>
 		  		<option value="xx">2,5 inch (laptop)</option>
+		  		<option value="xx">3,5 inch</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">Toerental</option>
 		  		<option value="xx">5400 RPM</option>
 		  		<option value="xx">7200 RPM</option>
@@ -78,17 +80,22 @@
 		</li>
 		<li>
 			<label for="4">(4) Geheugen</label>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">Capiciteit</option>
-		  		<option value="xx">xx</option>
-		  		<option value="xx">xx</option>
+		  		<option value="xx">1 GB</option>
+		  		<option value="xx">2 GB</option>
+		  		<option value="xx">4 GB</option>
+		  		<option value="xx">8 GB</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">Type</option>
 		  		<option value="xx">SDRAM</option>
+		  		<option value="xx">DDR1</option>
 		  		<option value="xx">DDR2</option>
+		  		<option value="xx">DDR3</option>
+		  		<option value="xx">DDR4</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">Slots</option>
 		  		<option value="xx">1</option>
 		  		<option value="xx">2</option>
@@ -98,7 +105,7 @@
 		</li>
 		<li>
 			<label for="5">(5) Moederbord</label>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="merk">Socket</option>
 		  		<option value="xx">Socket 1150</option>
 		  		<option value="xx">Socket 1155</option>
@@ -109,7 +116,7 @@
 		  		<option value="xx">Socket FM2</option>
 		  		<option value="xx">Socket FM2+</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">PCIe</option>
 		  		<option value="xx">1</option>
 		  		<option value="xx">2</option>
@@ -118,7 +125,7 @@
 		  		<option value="xx">5</option>
 		  		<option value="xx">6</option>
 			</select>
-			<select>
+			<select onchange="changeMe(this)">
 		  		<option value="xx">Geheugen</option>
 		  		<option value="xx">16GB</option>
 		  		<option value="xx">32GB</option>

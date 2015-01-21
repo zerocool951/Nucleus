@@ -11,7 +11,10 @@ $(function(){
 	localStorage.setItem( 'nucleusUser', JSON.stringify(nucleusUser) );
 	console.log( JSON.parse( localStorage.getItem( 'nucleusUser' ) ) );
 
-
+	//Desing: gray out first select
+    //$("#building form ul li select").click(function(sel) {
+    //  	$("#building form ul li select").css("color", "#000"); 
+    //});
 
 	//open extraInfo
 	$("#building a").click(function() {
